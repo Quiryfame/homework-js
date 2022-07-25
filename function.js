@@ -1,10 +1,7 @@
-function slovo(a){
-t = a.split("");
-kolvo = a.length;
-    
-for (let i = 0; i <= kolvo; i++)
-{
-  console.log(t[i]);
+function printLetters (word) {
+  for (let i = 0; i < word.length; i++) {
+    console.log(word[i]);
+  }
 }
-}
-slovo("Привет, Олег");    
+
+printLetters('Hello, World!')
