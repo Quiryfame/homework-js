@@ -1,12 +1,10 @@
-let a=5;
-let b=7;
+const a = 5;
+const b = 7;
 
-
-
-if(a>b){
+if (a > b) {
     console.log('Значение переменной a больше значения переменной b!');
-} else if(a<b){
+} else if (a < b) {
     console.log('Значение переменной a меньше значения переменной b!');
-}else{
+} else {
     console.log('Значение переменных a и b равны!');
 }   
